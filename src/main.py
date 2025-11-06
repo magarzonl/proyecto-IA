@@ -5,6 +5,6 @@ app = FastAPI()
 @app.get("/dev")
 
 def read_cv():
-    message = "Hellooooo, this's my first App FastAPI"
+    message = "Hellooooo, this's my first App FastAPI servicios routers bd"
     return {message}
     
